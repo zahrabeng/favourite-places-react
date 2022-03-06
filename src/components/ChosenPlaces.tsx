@@ -4,7 +4,7 @@ function ChosenPlaces(): JSX.Element{
     return(
         <section>
         <div className = "placeEntry">
-            <img src = "images/tunisia.jpg" width={800} height={500} />
+            <img src = "images/tunisia.jpg" className = "image" />
             <PlaceEntry
                 placeDescription={"A Beautiful Sunny Beach"}
                 location={"Tunisia"}
@@ -13,7 +13,7 @@ function ChosenPlaces(): JSX.Element{
         </div>
 
         <div className = "placeEntry">
-            <img src = "images/forest.png" width={800} height={500} />
+            <img src = "images/forest.png" className="image"/>
             <PlaceEntry
                 placeDescription={"Serene Forest"}
                 location={"Delamere Forest"}
@@ -22,7 +22,7 @@ function ChosenPlaces(): JSX.Element{
         </div>
 
         <div className = "placeEntry">
-            <img src = "images/paris.jpg" width={800} height={500} />
+            <img src = "images/paris.jpg" className = "image" />
             <PlaceEntry
                 placeDescription={"A stroll by the Eiffel Tower"}
                 location={"Paris"}
@@ -31,7 +31,7 @@ function ChosenPlaces(): JSX.Element{
         </div>
 
         <div className = "placeEntry">
-            <img src = "images/greenwich.jpg" width={800} height={500} />
+            <img src = "images/greenwich.jpg" className = "image" />
             <PlaceEntry
                 placeDescription={"Picnic at Greenwich park"}
                 location={"London"}
