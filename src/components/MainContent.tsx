@@ -1,15 +1,15 @@
-import Appfooter from "./AppFooter"
-import AppHeader from "./AppHeader"
-import ChosenPlaces from "./ChosenPlaces"
+import Appfooter from "./AppFooter";
+import AppHeader from "./AppHeader";
+import ChosenPlaces from "./ChosenPlaces";
 
-function MainContent(): JSX.Element{
-    return (
-        <main>
-            <AppHeader />
-            <ChosenPlaces />
-            <Appfooter />
-        </main>
-    )
+function MainContent(): JSX.Element {
+  return (
+    <main>
+      <AppHeader />
+      <ChosenPlaces />
+      <Appfooter />
+    </main>
+  );
 }
 
-export default MainContent
+export default MainContent;
