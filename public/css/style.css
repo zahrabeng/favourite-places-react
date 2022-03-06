@@ -1,11 +1,42 @@
 body{
     background-color: #fff2cc;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
-section{
-    background-color: aquamarine;
+.placeEntry{
+    background-color: rgb(84, 180, 88);
+    width: 900px;
+    margin: 0px auto;
+    border-radius: 30%;
+    text-align: center;
+    font-size: larger;
+    color: #fff2cc;
+    border-width:6px;
+    border-style: double;
 }
 
 h1{
-    background-color: blue;
+    background-color: rgb(40, 102, 27);
+    color: #fff2cc;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto; 
+    border-radius: 50px;
+    font-family: 'Smooch Sans', sans-serif;
+    border-width:10px;
+    border-style:outset;
+    border-color: #d48235;
+}
+
+nav{
+    font-size: 20px;
+}
+
+.image{
+    width: 600px;
+    height: 500x;
+    padding: 20px 150px;
+    border-radius: 30%;
+
 }
