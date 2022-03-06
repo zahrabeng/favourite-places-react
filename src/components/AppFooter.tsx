@@ -3,7 +3,7 @@ function Appfooter(): JSX.Element {
     <footer>
       <p>Thank you for having a look at my website</p>
       <p>Please follow me on</p>
-      <a href="#"> Instagram</a>
+      <a href="https://images.app.goo.gl/AKTj1pU2ebe3zcBx6"> Instagram</a>
     </footer>
   );
 }
